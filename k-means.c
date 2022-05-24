@@ -7,9 +7,9 @@
 
 static int data_rows;				// Quantidade de linhas em data_array.
 static int data_cols;				// Quantidade de colunas em data_array.
-static int data_k;					// Quantidade de agrupamentos.
+static int data_k;				// Quantidade de agrupamentos.
 static float *data_array;			// Pontos a serem agrupados.
-static float **centroids_array;		// Centroides.
+static float **centroids_array;			// Centroides.
 static int *clusters_array;			// Guarda o indice de cluster para cada ponto em data_array.
 static int first_step = 1;
 
