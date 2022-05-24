@@ -2,12 +2,6 @@
 #include <stdio.h>
 #include "k-means.h"
 
-//static void free_pointer(void **pointer) {
-//	assert(pointer);
-//	free(*pointer);
-//	*pointer = NULL;
-//}
-
 int main() {
 	int rows = 10;
 	int cols = 2;
